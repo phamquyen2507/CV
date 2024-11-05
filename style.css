@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color: rgba(185, 223, 243, 0.489);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ body{
 }
 .container .left-side{
     position: relative;
-    background: #003147;
+    background: #01395ace;
     padding:30px;
 }
 .container .right-side{
@@ -88,7 +88,7 @@ body{
     display:inline-block;
     width:30px;
     font-size:18px;
-    color:#03a9f4;
+    color:#59c1fece;
 }
 .contact ul li span{
     color:#fff;
@@ -98,7 +98,7 @@ body{
     margin-bottom: 10px;
 }
 .contact.education h5{
-    color:#03a9f4;
+    color:#59c1fece;
     font-weight: 300;
 }
 .contact.education h4{
@@ -115,7 +115,7 @@ body{
     position:relative;
     width:100%;
     height:6px;
-    background: #081921;
+    background: #727f86;
     display:block;
     margin-top: 5px;
 }
@@ -124,7 +124,7 @@ body{
     top:0;
     left:0;
     height:100%;
-    background: #03a9f4;
+    background: #59c1fece;
 }
 .about{
     margin-bottom: 50px;
@@ -164,7 +164,7 @@ body{
     top:0;
     left:0;
     height:100%;
-    background:#03a9f4;
+    background:#59c1fece;
 }
 .interest ul{
     display:grid;
@@ -180,10 +180,4 @@ body{
     color:#03a9f4;
     font-size:18px;
     width:20px;
-}
-@media(max-width:100px){
-    .container{
-        margin:10px;
-        grid-template-columns: repeat(1,1fr);
-    }
 }
