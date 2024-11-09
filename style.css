@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(185, 223, 243, 0.489);
+    background-color: rgb(255, 255, 255);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ body{
 }
 .container .left-side{
     position: relative;
-    background: #01395ace;
+    background: #b50303;
     padding:30px;
 }
 .container .right-side{
@@ -38,7 +38,7 @@ body{
 }
 .profile{
     position:relative;
-    dispaly:flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
@@ -88,7 +88,7 @@ body{
     display:inline-block;
     width:30px;
     font-size:18px;
-    color:#59c1fece;
+    color:#f47979ce;
 }
 .contact ul li span{
     color:#fff;
@@ -98,7 +98,7 @@ body{
     margin-bottom: 10px;
 }
 .contact.education h5{
-    color:#59c1fece;
+    color:#f47979ce;
     font-weight: 300;
 }
 .contact.education h4{
@@ -115,7 +115,7 @@ body{
     position:relative;
     width:100%;
     height:6px;
-    background: #727f86;
+    background: #7e0202;
     display:block;
     margin-top: 5px;
 }
@@ -124,7 +124,7 @@ body{
     top:0;
     left:0;
     height:100%;
-    background: #59c1fece;
+    background: #f47979ce;
 }
 .about{
     margin-bottom: 50px;
@@ -133,7 +133,7 @@ body{
     margin-bottom: 0;
 }
 .title2{
-    color: #003147;
+    color: #750303;
     text-transform: uppercase;
     letter-spacing: 2px;
     line-height: 30px;
@@ -150,7 +150,7 @@ body{
 }
 .skills .box h3{
     text-transform: uppercase;
-    color:#848c99;
+    color:#7e0404;
     font-weight: 500;
 }
 .skills .box .percent{
@@ -164,7 +164,7 @@ body{
     top:0;
     left:0;
     height:100%;
-    background:#59c1fece;
+    background:#f47979ce;
 }
 .interest ul{
     display:grid;
@@ -177,7 +177,7 @@ body{
     margin:10px 0;
 }
 .interest ul li .fa{
-    color:#03a9f4;
+    color:#f47979ce;
     font-size:18px;
     width:20px;
 }
